@@ -73,6 +73,44 @@ hr {
   height: 0;
   overflow: visible; }
 
+.lang-corner {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  display: flex;
+  gap: 4px;
+  z-index: 1000;
+}
+
+.lang-box {
+  padding: 2px 8px;
+  border: 1px solid #444;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #444;
+  text-decoration: none;
+  border-radius: 2px;
+  background: #fff;
+}
+
+.lang-box:hover {
+  background-color: #f1f1f1;
+  text-decoration: none;
+}
+
+.lang-box.active {
+  background-color: #444;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .lang-corner {
+    top: 8px;
+    right: 60px; /* avoids hamburger */
+  }
+}
+
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem; }
