@@ -10,4 +10,4 @@ COPY . /www
 EXPOSE 80
 
 # Run BusyBox HTTP server
-CMD ["httpd", "-f", "-p", "80", "-h", "/www/en"]
+CMD ["httpd", "-f", "-p", "80", "-h", "/www"]
