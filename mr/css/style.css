@@ -103,12 +103,13 @@ hr {
   color: #fff;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1004px) {
   .lang-corner {
-    top: 8px;
-    right: 60px; /* avoids hamburger */
+    top: 58px;     /* moved down */
+    right: 20px;   /* still avoids hamburger */
   }
 }
+
 
 
 h1, h2, h3, h4, h5, h6 {
